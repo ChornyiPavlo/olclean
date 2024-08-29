@@ -16,21 +16,32 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar">
+<header class="header">
     <div class="container">
-        <div class="logo">
-            <a href="index.html"><img src="img/logo.jpg" alt="Logo"></a>
-        </div>
-        +7(7172)738154
-        <ul class="nav-links">
-            <li><a href="index.html#service">Услуги</a></li>
-            <li><a href="index.html#about">О нас</a></li>
-            <li><a href="index.html#price">Цена</a></li>
-            <li></li>
-        </ul>
-        <a href="form.html" class="btn-get-started">Заказать</a>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpg" alt="Logo">
+            </a>
+            <h1>We clean</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ml-auto align-items-center">
+                    <li><a href="#">+7(7172)738154</a></li>
+                    <li><a href="#service">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#price">Цена</a></li>
+                    <li><a href="form.html" class="btn-get-started">Заказать</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-</nav>
+</header>
 
 <section class="services tariffs policy" id="service">
     <div class="container">
@@ -93,6 +104,9 @@
     </div>
 </footer>
 </body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
